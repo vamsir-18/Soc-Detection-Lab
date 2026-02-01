@@ -20,6 +20,10 @@ In my experience, most alerts from this detection end up being:
 
 Because of this, these detections should always be reviewed in context rather than treated as immediate incidents.
 
+## Alert Context
+
+This alert is generated when a user or endpoint sends an unusually large volume of data to an external destination compared to its normal behavior, especially when the transfer occurs outside typical working hours or to a previously unseen destination.
+
 ### What I Check First When This Alert Fires
 
 Before escalating, I usually answer these questions:

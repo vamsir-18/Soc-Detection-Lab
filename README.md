@@ -1,2 +1,2 @@
 # soc-detection-lab
-Hands-on SOC detection projects using Splunk,Windows logs, and MITRE ATT&amp;CK
+Detection rules and security analysis for SOC operations. MITRE ATT&CK mapped Splunk queries for threat detection.

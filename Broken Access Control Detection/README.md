@@ -366,11 +366,11 @@ When this alert fires, investigate in this order:
 Broken Access Control is **#1 on OWASP Top 10 2021** and one of the most exploited web vulnerabilities.
 
 Detecting it early prevents:
-- ✅ Mass data exposure and privacy violations
-- ✅ Privilege escalation and unauthorized admin access
-- ✅ Business logic abuse and fraud
-- ✅ Compliance violations (GDPR, HIPAA, PCI-DSS)
-- ✅ Reputational damage from data breaches
+-  Mass data exposure and privacy violations
+-  Privilege escalation and unauthorized admin access
+-  Business logic abuse and fraud
+-  Compliance violations (GDPR, HIPAA, PCI-DSS)
+-  Reputational damage from data breaches
 
 **Real-World Impact:**
 - Average cost of data breach: $4.45M (IBM 2023)

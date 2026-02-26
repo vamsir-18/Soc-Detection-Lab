@@ -301,24 +301,24 @@ index=webapp sourcetype=api_logs
 
 **SOC Investigation Flow:**
 
-1. ✅ **Confirm user role and expected access**
+1.  **Confirm user role and expected access**
    - User: john.doe
    - Role: Standard Customer
    - Should only access own orders (order 5432)
 
-2. ✅ **Check ownership of accessed objects**
+2.  **Check ownership of accessed objects**
    - Orders 5433-5447 belong to different customers
    - Unauthorized cross-user data access confirmed
 
-3. ✅ **Look for sequential or bulk access patterns**
+3.  **Look for sequential or bulk access patterns**
    - 15 sequential order IDs accessed in 2 minutes
    - Classic IDOR enumeration pattern
 
-4. ✅ **Identify sensitive data exposure**
+4.  **Identify sensitive data exposure**
    - Order data contains: customer names, addresses, purchase history
    - PII exposure confirmed
 
-5. ✅ **Escalate to AppSec**
+5.  **Escalate to AppSec**
    - Severity: HIGH (data exposure, no modification detected)
    - Immediate: Block user account
    - Short-term: Fix IDOR vulnerability in /api/orders endpoint
